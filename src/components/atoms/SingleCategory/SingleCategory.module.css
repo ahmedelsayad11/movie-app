@@ -1,0 +1,33 @@
+.accordion-wrapper {
+  width: 100%;
+}
+.accordion-header button {
+  background-color: #666 !important;
+  color: black !important;
+  font-size: 30px;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-header-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header-text p {
+  align-self: center !important;
+}
+
+.accordion-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.accordion-body-movies {
+  width: 100%;
+}
